@@ -1,0 +1,3 @@
+[submodule "assets/serviceWorkers"]
+	path = assets/serviceWorkers
+	url = https://github.com/pwa-builder/serviceworkers.git
