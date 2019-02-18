@@ -1,8 +1,7 @@
-# pwabuilder-lib
+# PWABuilder-Lib
 
-## PWA Builder Core Library
-
-The library contains the core modules required by [PWA Builder](https://github.com/manifoldjs/ManifoldJS), a tool for creating hosted web applications based on a [W3C Web App manifest](http://www.w3.org/TR/appmanifest/).
+The PWABuilder-Lib contains the core modules required by [PWA Builder](https://github.com/pwa-builder/PWABuilder-CLI), a tool for creating hosted web applications based on a [W3C Web App manifest](http://www.w3.org/TR/appmanifest/).
+With this library you can get the manifest from a site or generate it if the site hasn't got one. Also, it can generate the missing images in the manifest and get the service worker information, among another things.
 
 ## Installation
 
