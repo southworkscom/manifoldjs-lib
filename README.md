@@ -1,8 +1,10 @@
 # PWABuilder-Lib
 
 The PWABuilder-Lib contains the core modules required by [PWA Builder](https://github.com/pwa-builder/PWABuilder-CLI), a tool for creating hosted web applications based on a [W3C Web App manifest](http://www.w3.org/TR/appmanifest/).
+
 With this library you can get the manifest from a site or generate it if the site hasn't got one. Also, it can generate the missing images in the manifest and get the service worker information, among another things.
 
+You can take a look to the PWA Builder official [site](https://www.pwabuilder.com/).
 ## Installation
 
 ```
@@ -13,20 +15,6 @@ In node.js:
 ```
 var lib = require('pwabuilder-lib')
 ```
-
-## Documentation
-
-Manifest Tools
-
-| Method                       | Description                                                                 | 
-| ---------------------------- |:-------------:                                                              |
-| getManifestFromSite          | Retrieves a site's manifest. If the site hasn't got one it would create it. |
-| getManifestFromFile          | Retrieves a manifest from a local file.                                     | 
-| writeToFile                  | Saves a manifest to a local file.                                           | 
-| fetchManifestUrlFromSite     | Gets the manifest's URL from a site.                                        |
-| downloadManifestFromUrl      | Downloads a site's manifest information.                                    |
-| generateImagesForManifest    | Generates the missing images for the manifest.                              |
-| listAvailableManifestFormats | Gets the availables formats for the manifest.                               |
 
 
 To get started, visit our [wiki](https://github.com/manifoldjs/ManifoldJS/wiki).
